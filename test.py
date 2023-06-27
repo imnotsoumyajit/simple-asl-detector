@@ -13,13 +13,13 @@ cap=cv2.VideoCapture(0)
 detector=HandDetector(maxHands=1)
 classifier=Classifier("model/keras_model.h5","model/labels.txt")
 # Add more labels !
-labels=["A","B","C"]
+labels=["0","1","2","C","Fuck off","K","L"]
 
 offset=17
 img_size=300
 counter=0
 
-folder="Data/B"
+# folder="Data/B"
 
 while cap.isOpened():
 
